@@ -1,6 +1,6 @@
 {
   "title": "Daynocraft",
-  "messageexito": "Cuando podamos, verificaremos tu formulario y se continuará con las pruebas en discord.",
+  "messageexito": "Cuando podamos, verificaremos tu formulario y se continuará con las pruebas en discord.Puede ser que tardemos un rato en revisar tu formulario",
   "about": "Daynocraft es un servidor multiplataforma de Minecraft. En él podrás jugar con tus amigos, crear tu propio clan, establecer tu terreno y mucho más...",
 
   "encuestas": [
@@ -26,7 +26,7 @@
           "placeholder": "Sam"
         },
         {
-          "label": "Edad (Numero)",
+          "label": "Edad (Número)",
           "type": "input",
           "value": "age",
           "placeholder": "21"
@@ -107,9 +107,117 @@
       "config": {
         "name": "Developer",
         "to": "developer",
-        "value": "Allow"
+        "value": "Allow",
+        "camposminimos": 15
       },
-      "preguntas": []
+      "preguntas": [
+        {
+          "label": "Es importante que coincida el nombre que pongas con el de discord.",
+          "type": "text"
+        },
+        {
+          "label": "Tu nombre en discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Sam"
+        },
+
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Sam"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "¿Por que quieres ser DEVELOPER en Daynocraft?",
+          "type": "input",
+          "value": "whydevelop",
+          "placeholder": "Porque..."
+        },
+        {
+          "label": "¿Cuanta experiencia tienes como DEVELPER? ¿Has configurado algún servidor? (4 o más palabras).",
+          "type": "textarea",
+          "value": "experience",
+          "placeholder": "Tengo 3 años configurando/instalando plugins y programando siendo desarrollador fullstack"
+        },
+        {
+          "label": "¿Has programado algún lenguaje de programación? ¿Cuál/es si es así? (No es necesario saber alguno, pero se valorará) (como js, python, yalm, otros)",
+          "type": "textarea",
+          "value": "programinglenguage",
+          "placeholder": "Sí, se bastante de javascript y un poco de python."
+        },
+        {
+          "label": "¿Sabes programar tu propio plugin? (No es necesario saber programar tu propio plugin, pero se valorará)",
+          "type": "boolean",
+          "value": "programinglenguage"
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Conoces y sabes la estructura de los archivos Yalm?",
+          "type": "boolean",
+          "value": "yamlkwno"
+        },
+        {
+          "label": "¿Plataforma en la que vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+        {
+          "label": "¿Sabes comandos normales para configurar plugins?",
+          "type": "input",
+          "value": "tencommands",
+          "placeholder": "gamemode..."
+        },
+        {
+          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
+          "type": "input",
+          "value": "timeindaynocraft",
+          "placeholder": "5 horas"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No) ?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Sabes programar webs con js,html,css/frameworks o otras tecnologias? (No es necesario saber programar webs, pero se valorará)",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        },
+        {
+          "label": "Después de enviar el formulario, habrá una o varias pruebas para conocer tu nivel.",
+          "type": "text"
+        }
+      ]
     }
   ],
   "embeds": []
