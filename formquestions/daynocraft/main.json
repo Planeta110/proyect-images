@@ -1,0 +1,116 @@
+{
+  "title": "Daynocraft",
+  "messageexito": "Cuando podamos, verificaremos tu formulario y se continuará con las pruebas en discord.",
+  "about": "Daynocraft es un servidor multiplataforma de Minecraft. En él podrás jugar con tus amigos, crear tu propio clan, establecer tu terreno y mucho más...",
+
+  "encuestas": [
+    {
+      "id": "helper",
+      "config": {
+        "name": "Helper",
+        "to": "helper",
+        "value": "Allow",
+        "camposminimos": 11
+      },
+      "preguntas": [
+        {
+          "label": "Tu nombre en discord",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Sam"
+        },
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Sam"
+        },
+        {
+          "label": "Edad (Numero)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "¿Por que quieres ser HELPER en Daynocraft?",
+          "type": "input",
+          "value": "answerhelper",
+          "placeholder": "Porque..."
+        },
+        {
+          "label": "¿Has sido HELPER en otro servidor que no haya sido creado por ti o por un amigo?.",
+          "type": "boolean",
+          "value": "answerhelper"
+        },
+        {
+          "label": "(Si has sido helper en otro servidor ¿ En cual a sido ?)",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "Un servidor de un amigo"
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Plataforma en la que vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+        {
+          "label": "Nombra 5 comandos default y 5 de plugins de Minecraft.",
+          "type": "textarea",
+          "value": "tencommands",
+          "placeholder": "gamemode..."
+        },
+        {
+          "label": "Nombra 10 plugins de la comunidad de Minecraft.",
+          "type": "textarea",
+          "value": "tencommands",
+          "placeholder": "essentialsX"
+        },
+        {
+          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
+          "type": "input",
+          "value": "timeindaynocraft",
+          "placeholder": "5 horas"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No) ?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "config": {
+        "name": "Developer",
+        "to": "developer",
+        "value": "Allow"
+      },
+      "preguntas": []
+    }
+  ],
+  "embeds": []
+}
