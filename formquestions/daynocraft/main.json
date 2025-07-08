@@ -153,7 +153,7 @@
           "placeholder": "Tengo 3 años configurando/instalando plugins y programando siendo desarrollador fullstack"
         },
         {
-          "label": "¿Has programado algún lenguaje de programación? ¿Cuál/es si es así? (No es necesario saber alguno, pero se valorará) (como js, python, yalm, otros)",
+          "label": "¿Has programado en algún lenguaje de programación? ¿Cuál/es si es así? (No es necesario saber alguno, pero se valorará) (como js, python, yalm, otros)",
           "type": "textarea",
           "value": "programinglenguage",
           "placeholder": "Sí, se bastante de javascript y un poco de python."
