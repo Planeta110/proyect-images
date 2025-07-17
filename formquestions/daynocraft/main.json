@@ -19,7 +19,7 @@
         {
           "label": "Tu nombre en Discord",
           "type": "input",
-          "value": "name",
+          "value": "namedc",
           "placeholder": "Pepe200"
         },
         {
@@ -114,11 +114,12 @@
         "camposminimos": 15,
         "haveamdfile": false,
         "mdfile": "",
-        "timeexpected": "6m"
+        "timeexpected": "6m",
+        "customaction": "window.location.href = '/daynocraft/developertest'"
       },
       "preguntas": [
         {
-          "label": "Es importante que coincida el nombre que pongas con el de discord.",
+          "label": "<span class='font-bold'>Es importante que coincida el nombre que pongas con el de discord.</span>",
           "type": "text"
         },
         {
@@ -220,7 +221,7 @@
           "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
         },
         {
-          "label": "Después de enviar el formulario, habrá una o varias pruebas para conocer tu nivel.",
+          "label": "<span class='font-bold'>Después de enviar el formulario, habrá una o varias pruebas para conocer tu nivel.</span>",
           "type": "text"
         }
       ]
@@ -240,7 +241,7 @@
       },
       "preguntas": [
         {
-          "label": "Si ya completaste el formulario anterior y recibiste la indicación de continuar con este, puedes seguir adelante.Una vez que hayas enviado todos los archivos necesarios a través de Discord, como se te solicitó, por favor, procede a hacer clic en el botón 'Listo'. Esto finalizará tu proceso de solicitud.",
+          "label": "<div><h2 className='font-extrabold text-red-500'>Advertencia</h2><span className='font-bold text-red-400'>Si ya completaste el formulario anterior y recibiste la indicación de continuar con este, puedes seguir adelante. Una vez que hayas echo y enviado todos los archivos necesarios a través de Discord, como se te solicitara, por favor, procede a hacer clic en el botón 'Listo'. Esto finalizará tu proceso de solicitud.</span></div>",
           "type": "text"
         },
         {
