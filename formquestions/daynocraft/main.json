@@ -10,7 +10,10 @@
         "name": "Helper",
         "to": "helper",
         "value": "Allow",
-        "camposminimos": 11
+        "camposminimos": 11,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "4m"
       },
       "preguntas": [
         {
@@ -108,7 +111,10 @@
         "name": "Developer",
         "to": "developer",
         "value": "Allow",
-        "camposminimos": 15
+        "camposminimos": 15,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "6m"
       },
       "preguntas": [
         {
@@ -216,6 +222,44 @@
         {
           "label": "Después de enviar el formulario, habrá una o varias pruebas para conocer tu nivel.",
           "type": "text"
+        }
+      ]
+    },
+
+    {
+      "id": "developertest",
+      "config": {
+        "buttonsend": "Listo",
+        "name": "Developer Test",
+        "to": "developertest",
+        "value": "Allow",
+        "camposminimos": 2,
+        "haveamdfile": true,
+        "mdfile": "https://raw.githubusercontent.com/Planeta110/Mincraft-Developer-Test/main/README.md",
+        "timeexpected": "35m"
+      },
+      "preguntas": [
+        {
+          "label": "Si ya completaste el formulario anterior y recibiste la indicación de continuar con este, puedes seguir adelante.Una vez que hayas enviado todos los archivos necesarios a través de Discord, como se te solicitó, por favor, procede a hacer clic en el botón 'Listo'. Esto finalizará tu proceso de solicitud.",
+          "type": "text"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe2000"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
         }
       ]
     }
