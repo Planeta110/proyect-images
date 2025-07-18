@@ -17,16 +17,22 @@
       },
       "preguntas": [
         {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
           "label": "Tu nombre en Discord",
           "type": "input",
           "value": "namedc",
           "placeholder": "Pepe200"
         },
         {
-          "label": "Tu nombre real",
+          "label": "Nombre de usuario en Minecraft",
           "type": "input",
-          "value": "name",
-          "placeholder": "Pepe"
+          "value": "username",
+          "placeholder": "XSTEVE_1"
         },
         {
           "label": "Edad (Número)",
@@ -35,11 +41,17 @@
           "placeholder": "21"
         },
         {
-          "label": "Nombre de usuario en Minecraft",
-          "type": "input",
-          "value": "username",
-          "placeholder": "XSTEVE_1"
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
         },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+
         {
           "label": "¿Por que quieres ser HELPER en Daynocraft?",
           "type": "input",
@@ -63,12 +75,7 @@
           "value": "knowdaynocraft",
           "placeholder": "Un amigo..."
         },
-        {
-          "label": "¿En que plataforma de Minecraft vas a jugar?",
-          "type": "options",
-          "value": "platformplay",
-          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
-        },
+
         {
           "label": "Nombra 5 comandos de Minecraft Vanilla y 5 plugins de Minecraft.",
           "type": "textarea",
@@ -87,11 +94,7 @@
           "value": "timeindaynocraft",
           "placeholder": "5 horas"
         },
-        {
-          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
-          "type": "boolean",
-          "value": "minecraftpremium"
-        },
+
         {
           "label": "¿Tienes micrófono?",
           "type": "boolean",
@@ -123,17 +126,22 @@
           "type": "text"
         },
         {
-          "label": "Tu nombre en Discord",
-          "type": "input",
-          "value": "namedc",
-          "placeholder": "Pepe2000"
-        },
-
-        {
           "label": "Tu nombre real",
           "type": "input",
           "value": "name",
           "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
         },
         {
           "label": "Edad (Número)",
@@ -142,10 +150,15 @@
           "placeholder": "21"
         },
         {
-          "label": "Nombre de usuario en Minecraft",
-          "type": "input",
-          "value": "username",
-          "placeholder": "XSTEVE_1"
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
         },
         {
           "label": "¿Por que quieres ser DEVELOPER en Daynocraft?",
@@ -182,12 +195,6 @@
           "value": "yamlkwno"
         },
         {
-          "label": "¿En que plataforma de Minecraft vas a jugar?",
-          "type": "options",
-          "value": "platformplay",
-          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
-        },
-        {
           "label": "¿Sabes comandos normales para configurar plugins?",
           "type": "input",
           "value": "tencommands",
@@ -198,11 +205,6 @@
           "type": "input",
           "value": "timeindaynocraft",
           "placeholder": "5 horas"
-        },
-        {
-          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
-          "type": "boolean",
-          "value": "minecraftpremium"
         },
         {
           "label": "¿Tienes micrófono?",
@@ -245,6 +247,12 @@
           "type": "text"
         },
         {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
           "label": "Tu nombre en Discord",
           "type": "input",
           "value": "namedc",
@@ -255,12 +263,6 @@
           "type": "input",
           "value": "username",
           "placeholder": "XSTEVE_1"
-        },
-        {
-          "label": "Tu nombre real",
-          "type": "input",
-          "value": "name",
-          "placeholder": "Pepe"
         }
       ]
     }
