@@ -2,7 +2,42 @@
   "title": "Daynocraft",
   "messageexito": "Cuando podamos, verificaremos tu formulario y se continuará con las pruebas en discord. Es posible la demora indefinida en revisar el formulario si se prolonga demasiado abre un ticket en nuestro Discord: discord.daynocraft.com",
   "about": "Daynocraft es un servidor multiplataforma de Minecraft. En él podrás jugar con tus amigos, crear tu propio clan, establecer tu terreno y mucho más...",
+  "redsocial": [
+    {
+      "title": "Discord 🌏",
+      "style": "bg-sky-500",
+      "to": "https://discord.gg/9DaJ9q6HsP"
+    },
+    {
+      "title": "X (Twitter)",
+      "style": "bg-lime-400",
+      "to": "https://x.com/Daynocraft1"
+    },
+    {
+      "title": "TikTok",
+      "style": "bg-violet-700",
+      "to": "https://www.tiktok.com/@daynocraftoficial?lang=es"
+    },
+    {
+      "title": "Youtube 🚀",
+      "style": "bg-red-600",
+      "to": "https://www.youtube.com/@Daynocraftoficial/shorts"
+    },
+    {
+      "title": "Instagram",
+      "style": "bg-amber-500",
+      "to": "https://www.instagram.com/p/DLfc1ApgV9N/"
+    },
+    
+    {
+      "title": "Terminos y politicas de privacidad",
+      "style": "bg-amber-400",
+      "to": "https://docs.google.com/document/d/1sHW2cBGxUgpqcRH3U84QYyhcG0W3JCSAXr9-WcTMf34/edit?tab=t.0"
+    }
+    
 
+    
+  ],
   "encuestas": [
     {
       "id": "helper",
