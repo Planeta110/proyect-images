@@ -513,7 +513,7 @@
         }
       ]
     },
-{
+    {
       "id": "admin",
       "config": {
         "name": "Administrador",
@@ -522,7 +522,7 @@
         "camposminimos": 11,
         "haveamdfile": false,
         "mdfile": "",
-        "timeexpected": "10 minutos"
+        "timeexpected": "15 minutos"
       },
       "preguntas": [
         {
@@ -579,6 +579,40 @@
           "placeholder": "En..."
         },
         {
+          "label": "¿Banearías a tu amigo si lo ves usando kill aura o fly? ¿Por cuánto tiempo (de forma razonable)?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [
+            { "platform": "No" },
+            { "platform": "Sí, 3 días" },
+            { "platform": "Sí, 15 días" },
+            { "platform": "Sí, 3 meses" }
+          ]
+        },
+        {
+          "label": "¿Permitirías una excepción a una norma si crees que es lo mejor para el servidor? Explica.",
+          "type": "textarea",
+          "value": "knowdaynocraft",
+          "placeholder": "No, hablaria con alguien sup..."
+        },
+        {
+          "label": "Si alguien reincide en una sanción o intenta evadir una cambiando de cuenta de mc o ip, ¿qué castigo aplicarías?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Bane...."
+        },
+        {
+          "label": "En caso de ver a alguien del equipo de moderación/administración, ya sea de rango más bajo o más alto, ¿lo reportarías a los owners/fundadores?",
+          "type": "boolean",
+          "value": "knowdaynocraft"
+        },
+        {
+          "label": "¿Cómo manejarías un reporte falso con pruebas manipuladas?",
+          "type": "textarea",
+          "value": "knowdaynocraft",
+          "placeholder": "Lo que ...."
+        },
+        {
           "label": "¿Como conociste Daynocraft?",
           "type": "input",
           "value": "knowdaynocraft",
@@ -586,13 +620,13 @@
         },
 
         {
-          "label": "Nombra 15 comandos de Minecraft Vanilla y 15 plugins de Minecraft.",
+          "label": "Nombra 15 comandos de Minecraft Vanilla, 15 plugins de Minecraft y 10 comandos que sirvan para moderar",
           "type": "textarea",
           "value": "tencommands",
           "placeholder": "/gamemode..."
         },
         {
-          "label": "Nombra 30 plugins de la comunidad de Minecraft.",
+          "label": "Nombra 10 plugins de la comunidad de Minecraft.",
           "type": "textarea",
           "value": "tencommands",
           "placeholder": "essentialsX"
@@ -689,10 +723,27 @@
           "placeholder": "Un amigo..."
         },
         {
-          "label": "¿Cuantos videos tendrás editados a la semana",
+          "label": "¿Cuantos videos tendrás editados a la semana?",
           "type": "input",
           "value": "editvideos",
           "placeholder": "3 videos"
+        },
+        {
+          "label": "¿Que programa de edición usas y/o sabes usar?",
+          "type": "input",
+          "value": "editvideos",
+          "placeholder": "3 videos"
+        },
+        {
+          "label": "¿Sabes editar vídeos o shorts llamativos que capten la atención?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [
+            { "platform": "No" },
+            { "platform": "Si, videos" },
+            { "platform": "Si, shorts" },
+            { "platform": "Si, ambos" }
+          ]
         },
         {
           "label": "¿Tienes micrófono?",
@@ -778,6 +829,12 @@
           "placeholder": "En..."
         },
         {
+          "label": "¿En qué ayudarías a los usuarios o qué tipo de preguntas responderías?",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+        {
           "label": "¿Como conociste Daynocraft?",
           "type": "input",
           "value": "knowdaynocraft",
@@ -803,7 +860,7 @@
         }
       ]
     },
-        {
+    {
       "id": "manager",
       "config": {
         "name": "Manager",
@@ -869,12 +926,19 @@
           "placeholder": "En..."
         },
         {
+          "label": "Si se cae el servidor o algún servicio, ¿qué harías?",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+
+        {
           "label": "¿Como conociste Daynocraft?",
           "type": "input",
           "value": "knowdaynocraft",
           "placeholder": "Un amigo..."
         },
-       {
+        {
           "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
           "type": "input",
           "value": "timeindaynocraft",
