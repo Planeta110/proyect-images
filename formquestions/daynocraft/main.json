@@ -48,7 +48,7 @@
         "camposminimos": 11,
         "haveamdfile": false,
         "mdfile": "",
-        "timeexpected": "4m"
+        "timeexpected": "5 minutos"
       },
       "preguntas": [
         {
@@ -152,7 +152,7 @@
         "camposminimos": 15,
         "haveamdfile": false,
         "mdfile": "",
-        "timeexpected": "6m",
+        "timeexpected": "6 minutos",
         "customaction": "window.location.href = '/daynocraft/developertest'"
       },
       "preguntas": [
@@ -274,7 +274,7 @@
         "camposminimos": 2,
         "haveamdfile": true,
         "mdfile": "https://raw.githubusercontent.com/Planeta110/Mincraft-Developer-Test/main/README.md",
-        "timeexpected": "35m"
+        "timeexpected": "35 minutos"
       },
       "preguntas": [
         {
@@ -298,6 +298,109 @@
           "type": "input",
           "value": "username",
           "placeholder": "XSTEVE_1"
+        }
+      ]
+    },
+    {
+      "id": "influencer",
+      "config": {
+        "name": "Influencer",
+        "to": "influencer",
+        "value": "Allow",
+        "camposminimos": 11,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "5 minutos"
+      },
+      "preguntas": [
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Nombre de usuario en YOUTUBE/INSTAGRAM/TIKTOK",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+
+        {
+          "label": "¿Que Rango Prefieres?",
+          "type": "options",
+          "value": "answerhelper",
+          "options": [{ "platform": "YOUTUBER" }, { "platform": "INSTAGRAMER" }, { "platform": "TIKTOKER" }]
+        },
+        {
+          "label": "¿Cuantos Suscriptores/Seguidores tienes?",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "1234"
+        },
+                {
+          "label": "¿Cuantas Visualizaciones tienes?",
+          "type": "textarea",
+          "value": "tencommands",
+          "placeholder": "12345"
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Cuantos Videos Subes a la semana?",
+          "type": "input",
+          "value": "username",
+          "placeholder": "3"
+        },
+        {
+          "label": "¿Cuantos videos sobre DAYNOCRAFT estas dispuesto a subir a la semana?",
+          "type": "input",
+          "value": "username",
+          "placeholder": "2"
+        },
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
         }
       ]
     }
