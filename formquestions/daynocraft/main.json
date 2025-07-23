@@ -28,15 +28,12 @@
       "style": "bg-amber-500",
       "to": "https://www.instagram.com/p/DLfc1ApgV9N/"
     },
-    
+
     {
       "title": "Terminos y politicas de privacidad",
       "style": "bg-amber-400",
       "to": "https://docs.google.com/document/d/1sHW2cBGxUgpqcRH3U84QYyhcG0W3JCSAXr9-WcTMf34/edit?tab=t.0"
     }
-    
-
-    
   ],
   "encuestas": [
     {
@@ -359,7 +356,11 @@
           "label": "¿Que Rango Prefieres?",
           "type": "options",
           "value": "answerhelper",
-          "options": [{ "platform": "YOUTUBER" }, { "platform": "INSTAGRAMER" }, { "platform": "TIKTOKER" }]
+          "options": [
+            { "platform": "YOUTUBER" },
+            { "platform": "INSTAGRAMER" },
+            { "platform": "TIKTOKER" }
+          ]
         },
         {
           "label": "¿Cuantos Suscriptores/Seguidores tienes?",
@@ -367,7 +368,7 @@
           "value": "otherserver",
           "placeholder": "1234"
         },
-                {
+        {
           "label": "¿Cuantas Visualizaciones tienes?",
           "type": "input",
           "value": "tencommands",
@@ -390,6 +391,114 @@
           "type": "input",
           "value": "username",
           "placeholder": "2"
+        },
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        }
+      ]
+    },
+    {
+      "id": "moderador",
+      "config": {
+        "name": "Moderador",
+        "to": "moderador",
+        "value": "Allow",
+        "camposminimos": 11,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "8 minutos"
+      },
+      "preguntas": [
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+        {
+          "label": "Escribe 10 comandos que se usen para moderar un servidor",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Banearías a tu amigo si lo ves usando kill aura o fly? ¿Por cuánto tiempo (de forma razonable)?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [
+            { "platform": "No" },
+            { "platform": "Sí, 3 días" },
+            { "platform": "Sí, 15 días" },
+            { "platform": "Sí, 3 meses" }
+          ]
+        },
+        {
+          "label": "¿Permitirías una excepción a una norma si crees que es lo mejor para el servidor? Explica.",
+          "type": "textarea",
+          "value": "knowdaynocraft",
+          "placeholder": "No, hablaria con alguien sup..."
+        },
+        {
+          "label": "¿Cómo manejarías un reporte falso con pruebas manipuladas?",
+          "type": "textarea",
+          "value": "knowdaynocraft",
+          "placeholder": "Lo que ...."
+        },
+        {
+          "label": "¿Qué hace el plugin CoreProtect y cómo se usa?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Permite ..."
+        },
+
+        {
+          "label": "¿Qué diferencia hay entre un kick, un mute y un ban? ¿Cuándo usarías cada uno?",
+          "type": "textarea",
+          "value": "knowdaynocraft",
+          "placeholder": "Pues ..."
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
         },
         {
           "label": "¿Tienes micrófono?",
