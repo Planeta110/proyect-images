@@ -369,7 +369,7 @@
         },
                 {
           "label": "¿Cuantas Visualizaciones tienes?",
-          "type": "textarea",
+          "type": "input",
           "value": "tencommands",
           "placeholder": "12345"
         },
