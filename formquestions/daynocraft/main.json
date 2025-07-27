@@ -408,7 +408,7 @@
     {
       "id": "moderador",
       "config": {
-        "name": "Moderador",
+        "name": "Moderador/a",
         "to": "moderador",
         "value": "Allow",
         "camposminimos": 11,
@@ -516,7 +516,7 @@
     {
       "id": "admin",
       "config": {
-        "name": "Administrador",
+        "name": "Administrador/a",
         "to": "admin",
         "value": "Allow",
         "camposminimos": 11,
