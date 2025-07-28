@@ -141,164 +141,6 @@
       ]
     },
     {
-      "id": "developer",
-      "config": {
-        "name": "Developer",
-        "to": "developer",
-        "value": "Allow",
-        "camposminimos": 15,
-        "haveamdfile": false,
-        "mdfile": "",
-        "timeexpected": "6 minutos",
-        "customaction": "window.location.href = '/daynocraft/developertest'"
-      },
-      "preguntas": [
-        {
-          "label": "<span class='font-bold'>Es importante que coincida el nombre que pongas con el de discord.</span>",
-          "type": "text"
-        },
-        {
-          "label": "Tu nombre real",
-          "type": "input",
-          "value": "name",
-          "placeholder": "Pepe"
-        },
-        {
-          "label": "Tu nombre en Discord",
-          "type": "input",
-          "value": "namedc",
-          "placeholder": "Pepe200"
-        },
-        {
-          "label": "Nombre de usuario en Minecraft",
-          "type": "input",
-          "value": "username",
-          "placeholder": "XSTEVE_1"
-        },
-        {
-          "label": "Edad (Número)",
-          "type": "input",
-          "value": "age",
-          "placeholder": "21"
-        },
-        {
-          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
-          "type": "boolean",
-          "value": "minecraftpremium"
-        },
-        {
-          "label": "¿En que plataforma de Minecraft vas a jugar?",
-          "type": "options",
-          "value": "platformplay",
-          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
-        },
-        {
-          "label": "¿Por que quieres ser DEVELOPER en Daynocraft?",
-          "type": "input",
-          "value": "whydevelop",
-          "placeholder": "Porque..."
-        },
-        {
-          "label": "¿Cuanta experiencia tienes como DEVELPER? ¿Has configurado algún servidor? (4 o más palabras).",
-          "type": "textarea",
-          "value": "experience",
-          "placeholder": "Tengo 3 años configurando/instalando plugins y programando siendo desarrollador fullstack"
-        },
-        {
-          "label": "¿Has programado en algún lenguaje de programación? ¿Cuál es si es así? (No es necesario saber alguno, pero se valorará) (como js, python, yalm, otros)",
-          "type": "textarea",
-          "value": "programinglenguage",
-          "placeholder": "Sí, se bastante de javascript y un poco de python."
-        },
-        {
-          "label": "¿Sabes programar tu propio plugin? (No es necesario saber programar tu propio plugin, pero se valorará)",
-          "type": "boolean",
-          "value": "programinglenguage"
-        },
-        {
-          "label": "¿Como conociste Daynocraft?",
-          "type": "input",
-          "value": "knowdaynocraft",
-          "placeholder": "Un amigo..."
-        },
-        {
-          "label": "¿Conoces y sabes la estructura de los archivos .yalm?",
-          "type": "boolean",
-          "value": "yamlkwno"
-        },
-        {
-          "label": "¿Sabes comandos normales para configurar plugins?",
-          "type": "input",
-          "value": "tencommands",
-          "placeholder": "gamemode..."
-        },
-        {
-          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
-          "type": "input",
-          "value": "timeindaynocraft",
-          "placeholder": "5 horas"
-        },
-        {
-          "label": "¿Tienes micrófono?",
-          "type": "boolean",
-          "value": "microphone"
-        },
-        {
-          "label": "¿Sabes programar webs con js, html, css / frameworks o otras tecnologias? (No es necesario saber programar webs, pero se valorará)",
-          "type": "boolean",
-          "value": "microphone"
-        },
-        {
-          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
-          "type": "input",
-          "value": "country",
-          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
-        },
-        {
-          "label": "<span class='font-bold'>Después de enviar el formulario, habrá una o varias pruebas para conocer tu nivel.</span>",
-          "type": "text"
-        }
-      ]
-    },
-
-    {
-      "id": "developertest",
-      "config": {
-        "buttonsend": "Listo",
-        "name": "Developer Test",
-        "to": "developertest",
-        "value": "Allow",
-        "camposminimos": 2,
-        "haveamdfile": true,
-        "mdfile": "https://raw.githubusercontent.com/Planeta110/Mincraft-Developer-Test/main/README.md",
-        "timeexpected": "35 minutos"
-      },
-      "preguntas": [
-        {
-          "label": "<div><h2 className='font-extrabold text-red-500'>Advertencia</h2><span className='font-bold text-red-400'>Si ya completaste el formulario anterior y recibiste la indicación de continuar con este, puedes seguir adelante. Una vez que hayas echo y enviado todos los archivos necesarios a través de Discord, como se te solicitara, por favor, procede a hacer clic en el botón 'Listo'. Esto finalizará tu proceso de solicitud.</span></div>",
-          "type": "text"
-        },
-        {
-          "label": "Tu nombre real",
-          "type": "input",
-          "value": "name",
-          "placeholder": "Pepe"
-        },
-        {
-          "label": "Tu nombre en Discord",
-          "type": "input",
-          "value": "namedc",
-          "placeholder": "Pepe2000"
-        },
-        {
-          "label": "Nombre de usuario en Minecraft",
-          "type": "input",
-          "value": "username",
-          "placeholder": "XSTEVE_1"
-        }
-      ]
-    },
-    {
       "id": "influencer",
       "config": {
         "name": "Influencer",
@@ -514,6 +356,374 @@
       ]
     },
     {
+      "id": "editor",
+      "config": {
+        "name": "Editor/a",
+        "to": "editor",
+        "value": "Allow",
+        "camposminimos": 11,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "5 minutos"
+      },
+      "preguntas": [
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+
+        {
+          "label": "¿Por que quieres ser EDITOR/A en Daynocraft?",
+          "type": "input",
+          "value": "answereditor",
+          "placeholder": "Porque..."
+        },
+        {
+          "label": "¿Has sido EDITOR/A en otro/a servidor/persona que no haya sido creado por ti o por un amigo?.",
+          "type": "boolean",
+          "value": "answereditor"
+        },
+        {
+          "label": "(Si has sido editor/a en otro servidor ¿En cual has sido?)",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Cuantos videos tendrás editados a la semana?",
+          "type": "input",
+          "value": "editvideos",
+          "placeholder": "3 videos"
+        },
+        {
+          "label": "¿Que programa de edición usas y/o sabes usar?",
+          "type": "input",
+          "value": "editvideos",
+          "placeholder": "3 videos"
+        },
+        {
+          "label": "¿Sabes editar vídeos o shorts llamativos que capten la atención?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [
+            { "platform": "No" },
+            { "platform": "Si, videos" },
+            { "platform": "Si, shorts" },
+            { "platform": "Si, ambos" }
+          ]
+        },
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        },
+        {
+          "label": "¿Estas dispuesto a editrar minimo 2 videos por semana (Sí) o (No)?",
+          "type": "boolean",
+          "value": "editacept"
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "config": {
+        "name": "Developer",
+        "to": "developer",
+        "value": "Allow",
+        "camposminimos": 15,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "6 minutos",
+        "customaction": "window.location.href = '/daynocraft/developertest'"
+      },
+      "preguntas": [
+        {
+          "label": "<span class='font-bold'>Es importante que coincida el nombre que pongas con el de discord.</span>",
+          "type": "text"
+        },
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+        {
+          "label": "¿Por que quieres ser DEVELOPER en Daynocraft?",
+          "type": "input",
+          "value": "whydevelop",
+          "placeholder": "Porque..."
+        },
+        {
+          "label": "¿Cuanta experiencia tienes como DEVELPER? ¿Has configurado algún servidor? (4 o más palabras).",
+          "type": "textarea",
+          "value": "experience",
+          "placeholder": "Tengo 3 años configurando/instalando plugins y programando siendo desarrollador fullstack"
+        },
+        {
+          "label": "¿Has programado en algún lenguaje de programación? ¿Cuál es si es así? (No es necesario saber alguno, pero se valorará) (como js, python, yalm, otros)",
+          "type": "textarea",
+          "value": "programinglenguage",
+          "placeholder": "Sí, se bastante de javascript y un poco de python."
+        },
+        {
+          "label": "¿Sabes programar tu propio plugin? (No es necesario saber programar tu propio plugin, pero se valorará)",
+          "type": "boolean",
+          "value": "programinglenguage"
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Conoces y sabes la estructura de los archivos .yalm?",
+          "type": "boolean",
+          "value": "yamlkwno"
+        },
+        {
+          "label": "¿Sabes comandos normales para configurar plugins?",
+          "type": "input",
+          "value": "tencommands",
+          "placeholder": "gamemode..."
+        },
+        {
+          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
+          "type": "input",
+          "value": "timeindaynocraft",
+          "placeholder": "5 horas"
+        },
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Sabes programar webs con js, html, css / frameworks o otras tecnologias? (No es necesario saber programar webs, pero se valorará)",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        },
+        {
+          "label": "<span class='font-bold'>Después de enviar el formulario, habrá una o varias pruebas para conocer tu nivel.</span>",
+          "type": "text"
+        }
+      ]
+    },
+
+    {
+      "id": "developertest",
+      "config": {
+        "buttonsend": "Listo",
+        "name": "Developer Test",
+        "to": "developertest",
+        "value": "Allow",
+        "camposminimos": 2,
+        "haveamdfile": true,
+        "mdfile": "https://raw.githubusercontent.com/Planeta110/Mincraft-Developer-Test/main/README.md",
+        "timeexpected": "35 minutos"
+      },
+      "preguntas": [
+        {
+          "label": "<div><h2 className='font-extrabold text-red-500'>Advertencia</h2><span className='font-bold text-red-400'>Si ya completaste el formulario anterior y recibiste la indicación de continuar con este, puedes seguir adelante. Una vez que hayas echo y enviado todos los archivos necesarios a través de Discord, como se te solicitara, por favor, procede a hacer clic en el botón 'Listo'. Esto finalizará tu proceso de solicitud.</span></div>",
+          "type": "text"
+        },
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe2000"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        }
+      ]
+    },
+
+    {
+      "id": "cmanager",
+      "config": {
+        "name": "Community Manager",
+        "to": "cmanager",
+        "value": "Allow",
+        "camposminimos": 11,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "5 minutos"
+      },
+      "preguntas": [
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+
+        {
+          "label": "¿Por que quieres ser COMMUNITY MANAGER en Daynocraft?",
+          "type": "input",
+          "value": "answereditor",
+          "placeholder": "Porque..."
+        },
+        {
+          "label": "¿Has sido COMMUNITY MANAGER en otro/a servidor/persona que no haya sido creado por ti o por un amigo?.",
+          "type": "boolean",
+          "value": "answereditor"
+        },
+        {
+          "label": "(Si has sido community manager en otro servidor ¿En cual has sido?)",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+        {
+          "label": "¿En qué ayudarías a los usuarios o qué tipo de preguntas responderías?",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
+          "type": "input",
+          "value": "timeindaynocraft",
+          "placeholder": "5 horas"
+        },
+
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        }
+      ]
+    },
+    {
       "id": "admin",
       "config": {
         "name": "Administrador/a",
@@ -651,215 +861,7 @@
         }
       ]
     },
-    {
-      "id": "editor",
-      "config": {
-        "name": "Editor/a",
-        "to": "editor",
-        "value": "Allow",
-        "camposminimos": 11,
-        "haveamdfile": false,
-        "mdfile": "",
-        "timeexpected": "5 minutos"
-      },
-      "preguntas": [
-        {
-          "label": "Tu nombre real",
-          "type": "input",
-          "value": "name",
-          "placeholder": "Pepe"
-        },
-        {
-          "label": "Tu nombre en Discord",
-          "type": "input",
-          "value": "namedc",
-          "placeholder": "Pepe200"
-        },
-        {
-          "label": "Nombre de usuario en Minecraft",
-          "type": "input",
-          "value": "username",
-          "placeholder": "XSTEVE_1"
-        },
-        {
-          "label": "Edad (Número)",
-          "type": "input",
-          "value": "age",
-          "placeholder": "21"
-        },
-        {
-          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
-          "type": "boolean",
-          "value": "minecraftpremium"
-        },
-        {
-          "label": "¿En que plataforma de Minecraft vas a jugar?",
-          "type": "options",
-          "value": "platformplay",
-          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
-        },
 
-        {
-          "label": "¿Por que quieres ser EDITOR/A en Daynocraft?",
-          "type": "input",
-          "value": "answereditor",
-          "placeholder": "Porque..."
-        },
-        {
-          "label": "¿Has sido EDITOR/A en otro/a servidor/persona que no haya sido creado por ti o por un amigo?.",
-          "type": "boolean",
-          "value": "answereditor"
-        },
-        {
-          "label": "(Si has sido editor/a en otro servidor ¿En cual has sido?)",
-          "type": "input",
-          "value": "otherserver",
-          "placeholder": "En..."
-        },
-        {
-          "label": "¿Como conociste Daynocraft?",
-          "type": "input",
-          "value": "knowdaynocraft",
-          "placeholder": "Un amigo..."
-        },
-        {
-          "label": "¿Cuantos videos tendrás editados a la semana?",
-          "type": "input",
-          "value": "editvideos",
-          "placeholder": "3 videos"
-        },
-        {
-          "label": "¿Que programa de edición usas y/o sabes usar?",
-          "type": "input",
-          "value": "editvideos",
-          "placeholder": "3 videos"
-        },
-        {
-          "label": "¿Sabes editar vídeos o shorts llamativos que capten la atención?",
-          "type": "options",
-          "value": "platformplay",
-          "options": [
-            { "platform": "No" },
-            { "platform": "Si, videos" },
-            { "platform": "Si, shorts" },
-            { "platform": "Si, ambos" }
-          ]
-        },
-        {
-          "label": "¿Tienes micrófono?",
-          "type": "boolean",
-          "value": "microphone"
-        },
-        {
-          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
-          "type": "input",
-          "value": "country",
-          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
-        },
-        {
-          "label": "¿Estas dispuesto a editrar minimo 2 videos por semana (Sí) o (No)?",
-          "type": "boolean",
-          "value": "editacept"
-        }
-      ]
-    },
-    {
-      "id": "cmanager",
-      "config": {
-        "name": "Community Manager",
-        "to": "cmanager",
-        "value": "Allow",
-        "camposminimos": 11,
-        "haveamdfile": false,
-        "mdfile": "",
-        "timeexpected": "5 minutos"
-      },
-      "preguntas": [
-        {
-          "label": "Tu nombre real",
-          "type": "input",
-          "value": "name",
-          "placeholder": "Pepe"
-        },
-        {
-          "label": "Tu nombre en Discord",
-          "type": "input",
-          "value": "namedc",
-          "placeholder": "Pepe200"
-        },
-        {
-          "label": "Nombre de usuario en Minecraft",
-          "type": "input",
-          "value": "username",
-          "placeholder": "XSTEVE_1"
-        },
-        {
-          "label": "Edad (Número)",
-          "type": "input",
-          "value": "age",
-          "placeholder": "21"
-        },
-        {
-          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
-          "type": "boolean",
-          "value": "minecraftpremium"
-        },
-        {
-          "label": "¿En que plataforma de Minecraft vas a jugar?",
-          "type": "options",
-          "value": "platformplay",
-          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
-        },
-
-        {
-          "label": "¿Por que quieres ser COMMUNITY MANAGER en Daynocraft?",
-          "type": "input",
-          "value": "answereditor",
-          "placeholder": "Porque..."
-        },
-        {
-          "label": "¿Has sido COMMUNITY MANAGER en otro/a servidor/persona que no haya sido creado por ti o por un amigo?.",
-          "type": "boolean",
-          "value": "answereditor"
-        },
-        {
-          "label": "(Si has sido community manager en otro servidor ¿En cual has sido?)",
-          "type": "input",
-          "value": "otherserver",
-          "placeholder": "En..."
-        },
-        {
-          "label": "¿En qué ayudarías a los usuarios o qué tipo de preguntas responderías?",
-          "type": "input",
-          "value": "otherserver",
-          "placeholder": "En..."
-        },
-        {
-          "label": "¿Como conociste Daynocraft?",
-          "type": "input",
-          "value": "knowdaynocraft",
-          "placeholder": "Un amigo..."
-        },
-        {
-          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
-          "type": "input",
-          "value": "timeindaynocraft",
-          "placeholder": "5 horas"
-        },
-
-        {
-          "label": "¿Tienes micrófono?",
-          "type": "boolean",
-          "value": "microphone"
-        },
-        {
-          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
-          "type": "input",
-          "value": "country",
-          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
-        }
-      ]
-    },
     {
       "id": "manager",
       "config": {
