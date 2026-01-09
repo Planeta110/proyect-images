@@ -959,7 +959,107 @@
           "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
         }
       ]
+    },
+    {
+      "id": "builder",
+      "config": {
+        "name": "Builder",
+        "to": "builder",
+        "value": "Allow",
+        "camposminimos": 11,
+        "haveamdfile": false,
+        "mdfile": "",
+        "timeexpected": "5 minutos"
+      },
+      "preguntas": [
+        {
+          "label": "Tu nombre real",
+          "type": "input",
+          "value": "name",
+          "placeholder": "Pepe"
+        },
+        {
+          "label": "Tu nombre en Discord",
+          "type": "input",
+          "value": "namedc",
+          "placeholder": "Pepe200"
+        },
+        {
+          "label": "Nombre de usuario en Minecraft",
+          "type": "input",
+          "value": "username",
+          "placeholder": "XSTEVE_1"
+        },
+        {
+          "label": "Edad (Número)",
+          "type": "input",
+          "value": "age",
+          "placeholder": "21"
+        },
+        {
+          "label": "¿Tienes el minecraft comprado (Sí) o pirata (No)?",
+          "type": "boolean",
+          "value": "minecraftpremium"
+        },
+        {
+          "label": "¿En que plataforma de Minecraft vas a jugar?",
+          "type": "options",
+          "value": "platformplay",
+          "options": [{ "platform": "Java" }, { "platform": "Bedrock" }]
+        },
+
+        {
+          "label": "¿Por que quieres ser BUILDER en Daynocraft?",
+          "type": "input",
+          "value": "answereditor",
+          "placeholder": "Porque..."
+        },
+        {
+          "label": "¿Has sido BUILDER en otro/a servidor/persona que no haya sido creado por ti o por un amigo?.",
+          "type": "boolean",
+          "value": "answereditor"
+        },
+        {
+          "label": "(Si has sido Builder en otro servidor ¿En cual has sido?)",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+        {
+          "label": "Si se cae el servidor o algún servicio, ¿qué harías?",
+          "type": "input",
+          "value": "otherserver",
+          "placeholder": "En..."
+        },
+
+        {
+          "label": "¿Como conociste Daynocraft?",
+          "type": "input",
+          "value": "knowdaynocraft",
+          "placeholder": "Un amigo..."
+        },
+        {
+          "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
+          "type": "input",
+          "value": "timeindaynocraft",
+          "placeholder": "5 horas"
+        },
+
+        {
+          "label": "¿Tienes micrófono?",
+          "type": "boolean",
+          "value": "microphone"
+        },
+        {
+          "label": "¿Cuál es tu país y cuántas horas de diferencia hay con la de España en horario de verano aproximadamente?",
+          "type": "input",
+          "value": "country",
+          "placeholder": "Estados Unidos, 6 horas de diferencia en verano"
+        }
+      ]
     }
+    
   ],
   "embeds": []
+  
 }
