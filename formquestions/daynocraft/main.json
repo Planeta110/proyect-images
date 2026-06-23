@@ -827,7 +827,7 @@
           "value": "comosehacess"
         },
         {
-          "label": "¿Que clientes crees que no están permitidos en Daynocraft?",
+          "label": "¿Qué clientes de Minecraft (Lunar, Badlion) están permitidos y cuáles (hacks) no lo están en Daynocraft?",
           "type": "input",
           "value": "clientespermitidos"
         },
