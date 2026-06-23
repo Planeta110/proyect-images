@@ -775,7 +775,7 @@
           "label": "¿Por que quieres ser ADMINISTRADOR/A en Daynocraft?",
           "type": "input",
           "value": "answeradmin",
-          "placeholder": "Porque..."
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Has sido ADMINISTRADOR/An otro servidor que no haya sido creado por ti o por un amigo?.",
@@ -786,7 +786,7 @@
           "label": "(Si has sido admin en otro servidor ¿En cual has sido?)",
           "type": "input",
           "value": "otherserver",
-          "placeholder": "En..."
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Banearías a tu amigo si lo ves usando kill aura o fly? ¿Por cuánto tiempo (de forma razonable)?",
@@ -803,39 +803,43 @@
           "label": "¿Permitirías una excepción a una norma si crees que es lo mejor para el servidor? Explica.",
           "type": "textarea",
           "value": "knowdaynocraft",
-          "placeholder": "No, hablaria con alguien sup..."
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "Si alguien reincide en una sanción o intenta evadir una cambiando de cuenta de mc o ip, ¿qué castigo aplicarías?",
           "type": "input",
           "value": "knowdaynocraft",
-          "placeholder": "Bane...."
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "En caso de ver a alguien del equipo de moderación/administración, ya sea de rango más bajo o más alto, ¿lo reportarías a los owners/fundadores?",
           "type": "boolean",
           "value": "knowdaynocraft"
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Que es una SS?",
           "type": "input",
           "value": "queesss"
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Como se hace una SS?",
           "type": "input",
           "value": "comosehacess"
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Qué clientes de Minecraft (Lunar, Badlion) están permitidos y cuáles (hacks) no lo están en Daynocraft?",
           "type": "input",
           "value": "clientespermitidos"
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Cómo manejarías un reporte falso con pruebas manipuladas?",
           "type": "textarea",
           "value": "knowdaynocraft",
-          "placeholder": "Lo que ...."
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Como conociste Daynocraft?",
@@ -848,13 +852,13 @@
           "label": "Nombra 15 comandos de Minecraft Vanilla, 15 plugins de Minecraft y 10 comandos que sirvan para moderar",
           "type": "textarea",
           "value": "tencommands",
-          "placeholder": "/gamemode..."
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "Nombra 10 plugins de la comunidad de Minecraft.",
           "type": "textarea",
           "value": "tencommands",
-          "placeholder": "essentialsX"
+          "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Cuanto tiempo a la semana tendrás disponible dedicado a Daynocraft?",
