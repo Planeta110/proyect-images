@@ -814,25 +814,25 @@
         {
           "label": "En caso de ver a alguien del equipo de moderación/administración, ya sea de rango más bajo o más alto, ¿lo reportarías a los owners/fundadores?",
           "type": "boolean",
-          "value": "knowdaynocraft"
+          "value": "knowdaynocraft",
           "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Que es una SS?",
           "type": "input",
-          "value": "queesss"
+          "value": "queesss",
           "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Como se hace una SS?",
           "type": "input",
-          "value": "comosehacess"
+          "value": "comosehacess",
           "placeholder": "Escribe tu respuesta aquí..."
         },
         {
           "label": "¿Qué clientes de Minecraft (Lunar, Badlion) están permitidos y cuáles (hacks) no lo están en Daynocraft?",
           "type": "input",
-          "value": "clientespermitidos"
+          "value": "clientespermitidos",
           "placeholder": "Escribe tu respuesta aquí..."
         },
         {
