@@ -817,6 +817,21 @@
           "value": "knowdaynocraft"
         },
         {
+          "label": "¿Que es una SS?",
+          "type": "input",
+          "value": "queesss"
+        },
+        {
+          "label": "¿Como se hace una SS?",
+          "type": "input",
+          "value": "comosehacess"
+        },
+        {
+          "label": "¿Que clientes crees que no están permitidos en Daynocraft?",
+          "type": "input",
+          "value": "clientespermitidos"
+        },
+        {
           "label": "¿Cómo manejarías un reporte falso con pruebas manipuladas?",
           "type": "textarea",
           "value": "knowdaynocraft",
